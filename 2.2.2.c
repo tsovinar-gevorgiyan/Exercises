@@ -25,9 +25,9 @@ int main()
 	
 
 	for (int i = min; i > 0; i--) {
-		if( (a % i == 0) && (b % i == 0) && (c % i == 0))
+		if( (a % i == 0) && (b % i == 0) && (c % i == 0)){
 		printf("The greatest common divisor is %d", i);
-		break;
+		break;}
 				
 	}}	
 
