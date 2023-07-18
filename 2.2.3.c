@@ -7,7 +7,7 @@ int main()
 	printf("Please enter a number: ");
 	scanf("%d", &num);
 
-	if( num >= 0 && num <= 31) 
+	if( num >= 0 && num <= 31 || num >= 64 && num <=95)  
 		printf("%d", num+32);
 	else printf("%d", num);
 }
